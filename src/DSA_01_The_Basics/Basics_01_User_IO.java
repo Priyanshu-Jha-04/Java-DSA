@@ -12,8 +12,8 @@ public class Basics_01_User_IO {
         System.out.println("Hey.... \nThis is how you put a new line.");
 
         // Difference between "println" and "print" function and how to print double quotes.
-        System.out.println("\"Println\" function is used to print a new line in the output. ");
-        System.out.print("\"Print\" function is used to continue in the same line.");
+        System.out.print("\"Print\" function do not prints a new line at the end. ");
+        System.out.println("\"Println\" function is used to print a new line at the end in the output.");
 
 
         // Input
