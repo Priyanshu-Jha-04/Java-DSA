@@ -20,7 +20,7 @@ public class Basics_05_Loops {
         // Printing whole number till N using WHILE Loop.
         int i = 1;
         System.out.println("Printing whole number till " + n + " using WHILE Loop :");
-        while (i<=n) {
+        while (i <= n) {
             System.out.println(i);
             i++;
         }
