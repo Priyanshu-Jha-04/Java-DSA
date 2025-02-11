@@ -16,7 +16,7 @@ public class Basics_02_DataTypes {
         long d = 5465L;
 
         // float: 32-bit floating-point number
-        // Needs 'F' at the end to specify it's a float 
+        // Needs 'F' at the end to specify it's a float
         float e = 10.3F;
 
         // double: 64-bit floating-point number (higher precision than float)
