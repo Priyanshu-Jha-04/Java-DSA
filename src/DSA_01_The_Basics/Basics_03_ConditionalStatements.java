@@ -1,4 +1,5 @@
 package DSA_01_The_Basics;
+
 import java.util.Scanner;
 
 public class Basics_03_ConditionalStatements {
@@ -13,13 +14,11 @@ public class Basics_03_ConditionalStatements {
         int b = sc.nextInt();
 
         // Condition using If-Else statement.
-        if (a>b) {
+        if (a > b) {
             System.out.println(a + " > " + b);
-        }
-        else if ( a == b) {
+        } else if (a == b) {
             System.out.println(a + " = " + b);
-        }
-        else {
+        } else {
             System.out.println(a + " < " + b);
         }
 
