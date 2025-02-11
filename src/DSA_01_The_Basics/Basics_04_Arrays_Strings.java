@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Basics_04_Arrays_Strings {
     public static void main(String[] args) {
 
+        // Array
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the length of the array : ");
@@ -19,5 +20,11 @@ public class Basics_04_Arrays_Strings {
         }
 
         System.out.println("Array elements: " + Arrays.toString(arr));
+        
+
+        // String
+        String str = "Hello";
+        System.out.println(str.charAt(4)); // Array concept is used
+        // Strings are immutable in JAVA
     }
 }
