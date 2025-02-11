@@ -5,7 +5,7 @@ import java.util.Scanner; // To take input form the user the first thing we need
 public class Basics_01_User_IO {
     public static void main(String[] args) {
 
-        // Simple Output.
+        // Simple Output
         System.out.println("Hello, It's me Priyanshu this side.");
 
         // "\n" is used in the SOUT to start a new line in the Output.
