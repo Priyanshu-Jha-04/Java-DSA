@@ -42,6 +42,7 @@ public class Basics_02_DataTypes {
         System.out.println(g);  // Output: true
         System.out.println(h);  // Output: h
         System.out.println(i);  // Output: Hello!
+        
     }
 }
 
