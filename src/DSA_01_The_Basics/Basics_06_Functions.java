@@ -26,7 +26,7 @@ public class Basics_06_Functions {
         // Create an instance of Functions class.
         functions obj = new functions();
 
-        // Call all functions
+        // Call all functions.
         obj.sayHello();
         obj.sayHello("Alice");
         obj.add(5, 10);
