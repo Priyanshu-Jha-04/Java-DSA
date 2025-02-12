@@ -15,7 +15,7 @@ public class Pattern_04 {
             for (int j = 0; j <= i; j++) {
                 System.out.print(val + " ");
             }
-            val = val + 1;
+            val++;
             System.out.println();
         }
     }
