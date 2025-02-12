@@ -12,7 +12,7 @@ public class Pattern_03 {
         for (int i = 0; i < n; i++) {
             int val = 1;
             for (int j = 0; j <= i; j++) {
-                System.out.print(val);
+                System.out.print(val + " ");
                 val++;
             }
             System.out.println();
