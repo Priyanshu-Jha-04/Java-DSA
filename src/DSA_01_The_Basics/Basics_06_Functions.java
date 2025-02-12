@@ -23,7 +23,7 @@ class functions {
 
 public class Basics_06_Functions {
     public static void main(String[] args) {
-        // Create an instance of Functions class
+        // Create an instance of Functions class.
         functions obj = new functions();
 
         // Call all functions
