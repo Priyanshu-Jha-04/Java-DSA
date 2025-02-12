@@ -31,7 +31,7 @@ public class Basics_06_Functions {
         obj.sayHello("Alice");
         obj.add(5, 10);
 
-        // Call Add method and store the result
+        // Call Add method and store the result.
         int result = obj.Add(7, 3);
         System.out.println("7 + 3 = " + result);
     }
