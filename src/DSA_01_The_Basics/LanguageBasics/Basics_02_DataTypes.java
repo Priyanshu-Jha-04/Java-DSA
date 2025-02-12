@@ -1,4 +1,4 @@
-package DSA_01_The_Basics;
+package DSA_01_The_Basics.LanguageBasics;
 
 public class Basics_02_DataTypes {
     public static void main(String[] args) {
