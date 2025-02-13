@@ -14,7 +14,7 @@ public class Pattern_08 {
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j < (2*n -(2*i+1)); j++) {
+            for (int j = 0; j < (2 * n - (2 * i + 1)); j++) {
                 System.out.print("*");
 
             }
