@@ -16,6 +16,7 @@ public class Pattern_16 {
                 System.out.print(start + " ");
             }
             start++;
+            
             System.out.println();
         }
     }
