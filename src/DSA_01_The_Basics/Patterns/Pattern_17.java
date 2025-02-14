@@ -18,10 +18,10 @@ public class Pattern_17 {
             int breakpoint = (2 * i + 1) / 2;
             for (int j = 0; j < (2 * i + 1); j++) {
                 if (j < breakpoint) {
-                    System.out.print(ch);
+                    System.out.print(ch + " ");
                     ch++;
                 } else {
-                    System.out.print(ch);
+                    System.out.print(ch + " ");
                     ch--;
                 }
             }
