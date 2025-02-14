@@ -12,6 +12,7 @@ public class Pattern_14 {
 
 
         for (int i = 0; i < n; i++) {
+            
             char start = 'A';
             for (int j = 0; j <= i; j++) {
                 System.out.print(start + " ");
