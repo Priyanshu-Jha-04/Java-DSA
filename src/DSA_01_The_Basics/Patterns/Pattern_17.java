@@ -10,14 +10,14 @@ public class Pattern_17 {
         System.out.println("Enter the number of rows : ");
         int n = sc.nextInt();
 
-        for (int i = 1; i<=n; i++) {
-            for (int j = 0; j <(n-i); j++) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < (n - i); j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j <(n-i); j++) {
+            for (int j = 0; j < (n - i); j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j <(n-i); j++) {
+            for (int j = 0; j < (n - i); j++) {
                 System.out.print(" ");
             }
         }
