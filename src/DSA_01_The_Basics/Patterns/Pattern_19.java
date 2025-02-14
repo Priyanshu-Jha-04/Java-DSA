@@ -12,15 +12,33 @@ public class Pattern_19 {
         int initialSpaces=0;
 
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j <= (n-i); j++) {
+            for (int j = 0; j < (n - i); j++) {
                 System.out.print("* ");
             }
-            for (int j = 0; j <= (2*i); j++) {
+            for (int j = 0; j < initialSpaces; j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j <= (n-i); j++) {
+            for (int j = 0; j < (n - i); j++) {
                 System.out.print("* ");
             }
+            initialSpaces += 2;
+            System.out.println();
+        }
+
+        initialSpaces = 2 * n - 2;
+
+        // Lower half pattern
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("* ");
+            }
+            for (int j = 0; j < initialSpaces; j++) {
+                System.out.print("  ");
+            }
+            for (int j = 0; j <= i; j++) {
+                System.out.print("* ");
+            }
+            initialSpaces -= 2;
             System.out.println();
         }
     }
