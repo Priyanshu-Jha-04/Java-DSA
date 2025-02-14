@@ -12,7 +12,7 @@ public class Pattern_15 {
 
         for (int i = 0; i < n; i++) {
             char start = 'A';
-            for (int j = 0; j< n-i; j++) {
+            for (int j = 0; j < (n - i); j++) {
                 System.out.print(start + " ");
                 start++;
             }
