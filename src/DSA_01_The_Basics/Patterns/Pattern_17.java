@@ -10,16 +10,25 @@ public class Pattern_17 {
         System.out.println("Enter the number of rows : ");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 0; j < (n - i); j++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < (n - i - 1); j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j < (n - i); j++) {
+            char ch = 'A';
+            int breakpoint = (2 * i + 1) / 2;
+            for (int j = 0; j < (2 * i + 1); j++) {
+                if (j < breakpoint) {
+                    System.out.print(ch);
+                    ch++;
+                } else {
+                    System.out.print(ch);
+                    ch--;
+                }
+            }
+            for (int j = 0; j < (n - i - 1); j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j < (n - i); j++) {
-                System.out.print(" ");
-            }
+            System.out.println();
         }
     }
 }
