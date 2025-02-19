@@ -8,7 +8,7 @@ public class Maths_01_CountDigits {
         int digits = 0;
         while (number > 0) {
             digits++;
-            number = number/10;
+            number = number / 10;
         }
         return digits;
     }
