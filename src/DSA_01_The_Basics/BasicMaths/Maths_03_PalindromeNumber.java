@@ -3,7 +3,6 @@ package DSA_01_The_Basics.BasicMaths;
 import java.util.Scanner;
 
 public class Maths_03_PalindromeNumber {
-
     public static boolean isPalindrome(int n) {
         int reverseNumber = 0;
         int num = n;
