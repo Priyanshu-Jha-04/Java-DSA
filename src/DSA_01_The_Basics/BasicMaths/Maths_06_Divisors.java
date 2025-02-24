@@ -6,7 +6,7 @@ public class Maths_06_Divisors {
 
     public static void allDivisors(int n) {
         System.out.println("The Divisors of " + n + " are : ");
-        for (int i = 1; i<=n; i++ ) {
+        for (int i = 1; i <= n; i++) {
             if (n % i == 0) {
                 System.out.print(i + " ");
             }
