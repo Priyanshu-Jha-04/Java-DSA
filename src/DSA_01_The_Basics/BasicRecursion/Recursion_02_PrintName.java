@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Recursion_02_PrintName {
 
     public static void printNameMultipleTimes(int a, int b) {
-        if (a>b) return;
+        if (a > b) return;
         System.out.println("Priyanshu");
-        printNameMultipleTimes(a+1,b);
+        printNameMultipleTimes(a + 1, b);
     }
 
     public static void main(String[] args) {
@@ -15,6 +15,6 @@ public class Recursion_02_PrintName {
 
         System.out.print("Enter the number of times : ");
         int n = sc.nextInt();
-        printNameMultipleTimes(1,n);
+        printNameMultipleTimes(1, n);
     }
 }
