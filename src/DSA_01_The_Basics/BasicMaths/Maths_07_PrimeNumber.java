@@ -8,17 +8,16 @@ import java.util.Scanner;
 public class Maths_07_PrimeNumber {
 
     public static void isPrime(int n) {
-        List<Integer> list = new ArrayList<Integer>();
+        int count = 0;
         for (int i = 1; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
-                list.add(i);
+                count++;
                 if ((n / i) != i) {
-                    list.add(n / i);
+                    count++;
                 }
             }
         }
-        Collections.sort(list);
-        if (list.size() == 2) {
+        if (count == 2) {
             System.out.println(n + " is a Prime Number.");
         } else {
             System.out.println(n + " is not a Prime Number.");
