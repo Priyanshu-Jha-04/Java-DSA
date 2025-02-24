@@ -5,7 +5,7 @@ public class Recursion_01_BasicRec {
     static int cnt = 0;
 
     public static void recursiveFunction() {
-        if(cnt == 3) return;
+        if (cnt == 3) return;
         System.out.println(cnt);
         cnt = cnt + 1;
         recursiveFunction();
