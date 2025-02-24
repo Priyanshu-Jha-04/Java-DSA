@@ -14,9 +14,9 @@ public class Maths_05_ArmstrongNumber {
             digits++;
             number = number / 10;
         }
-        while (n>0) {
+        while (n > 0) {
             lastDigit = n % 10;
-            n = n/10;
+            n = n / 10;
             sum = sum + (int) Math.pow(lastDigit, digits);
         }
         return (num == sum);
