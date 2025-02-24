@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Recursion_04_BackwardCounting {
 
     public static void backwardCounting(int a, int b) {
-        if (b<a) return;
+        if (b < a) return;
         System.out.println(b);
-        backwardCounting(a, b-1);
+        backwardCounting(a, b - 1);
     }
 
     public static void main(String[] args) {
@@ -16,6 +16,6 @@ public class Recursion_04_BackwardCounting {
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
 
-        backwardCounting(1,n);
+        backwardCounting(1, n);
     }
 }
