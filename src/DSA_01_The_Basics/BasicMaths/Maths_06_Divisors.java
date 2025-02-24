@@ -31,8 +31,9 @@ public class Maths_06_Divisors {
             }
         }
         Collections.sort(list);
-        System.out.println(list);
-        ;
+        for (int divisor : list) {
+            System.out.println(divisor + " ");
+        }
     }
 
     public static void main(String[] args) {
