@@ -17,6 +17,6 @@ public class Recursion_05_SumOfNaturalNumbers {
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
 
-        System.out.println("Sum of first " + n + " numbers: " + sum(n));
+        System.out.println("Sum of first " + n + " numbers = " + sum(n));
     }
 }
