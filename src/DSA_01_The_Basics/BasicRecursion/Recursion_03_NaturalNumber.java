@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Recursion_03_NaturalNumber {
 
     static void naturalNumbers(int a, int b) {
-        if (a>b) return;
+        if (a > b) return;
         System.out.println(a);
-        naturalNumbers(a+1,b);
+        naturalNumbers(a + 1, b);
     }
 
     public static void main(String[] args) {
@@ -16,6 +16,6 @@ public class Recursion_03_NaturalNumber {
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
 
-        naturalNumbers(1,n);
+        naturalNumbers(1, n);
     }
 }
