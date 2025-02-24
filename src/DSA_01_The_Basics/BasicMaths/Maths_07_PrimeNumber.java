@@ -20,8 +20,7 @@ public class Maths_07_PrimeNumber {
         Collections.sort(list);
         if (list.size() == 2) {
             System.out.println(n + " is a Prime Number.");
-        }
-        else {
+        } else {
             System.out.println(n + " is not a Prime Number.");
         }
     }
