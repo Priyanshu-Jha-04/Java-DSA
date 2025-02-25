@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Recursion_09_FibonacciNumber {
 
     public static int fibonacciNumber(int n) {
-        if(n==0) return 0;
-        if(n==1) return 1;
-        return fibonacciNumber(n-1) + fibonacciNumber(n-2);
+        if (n == 0) return 0;
+        if (n == 1) return 1;
+        return fibonacciNumber(n - 1) + fibonacciNumber(n - 2);
     }
 
     public static int fibonacciNumberUsingLoop(int n) {
-        if(n==0) return 0;
-        if(n==1) return 1;
+        if (n == 0) return 0;
+        if (n == 1) return 1;
         int prev1 = 0, prev2 = 1, current = 0;
         for (int i = 2; i <= n; i++) {
             current = prev1 + prev2;
