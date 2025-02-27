@@ -23,6 +23,7 @@ public class Hashing_01_CountingFreqencies {
         }
     }
 
+    // Using MAP
     public static void Frequency(int arr[], int n) {
         Map<Integer, Integer> map = new HashMap<>();
 
