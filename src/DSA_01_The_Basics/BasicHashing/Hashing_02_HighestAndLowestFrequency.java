@@ -29,7 +29,6 @@ public class Hashing_02_HighestAndLowestFrequency {
         }
         System.out.println("The highest frequency element is: " + maxEle);
         System.out.println("The lowest frequency element is: " + minEle);
-
     }
 
     public static void main(String[] args) {
