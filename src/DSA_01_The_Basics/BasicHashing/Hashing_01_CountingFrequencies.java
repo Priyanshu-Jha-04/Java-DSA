@@ -3,13 +3,13 @@ package DSA_01_The_Basics.BasicHashing;
 import java.util.*;
 
 
-public class Hashing_01_CountingFreqencies {
+public class Hashing_01_CountingFrequencies {
     public static void countFreq(int arr[], int n) {
-        boolean visited[] = new boolean[n];
+        boolean[] visited = new boolean[n];
 
         for (int i = 0; i < n; i++) {
 
-            if (visited[i] == true)
+            if (visited[i])
                 continue;
 
             int count = 1;
