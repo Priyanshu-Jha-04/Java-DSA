@@ -25,10 +25,12 @@ public class Sorting_01_SelectionSort {
     public static void main(String[] args) {
         int[] arr = {13, 46, 24, 52, 20, 9};
         int n = arr.length;
+
         System.out.println("Before selection sort:");
         for (int j : arr) {
             System.out.print(j + " ");
         }
+
         System.out.println();
         selectionSort(arr, n);
     }
